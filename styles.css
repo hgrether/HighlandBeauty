@@ -85,3 +85,16 @@ footer a{
         content:"";
     }
 }
+@media only screen and (min-width:1000px){
+    /* ---- Desktop styles below ---- */
+    .col{
+        width:30%;
+        float:left;
+        padding:1%;
+    }
+    .row::after{
+        display: table;
+        clear:both;
+        content:"";
+    }
+}
