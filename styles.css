@@ -1,7 +1,7 @@
 /*Some colors based on: https://www.w3schools.com/colors/colors_palettes.asp */
 
 body{
-  background: #d6cbd3;
+  background: #f598a4;
   font-size: 1em;
   margin:0;
   padding:0;
@@ -29,23 +29,32 @@ nav{
     /* Change previous grid */
     grid-auto-flow: column;
     grid-gap: auto;
-    background: #f0f0f0;
+    background: #06bdcd;
     padding:1.5% auto;
 }
 
 nav a{
     margin: 10px auto;
     text-decoration: none;
-    color: #bb7e82;
+    color:white;
+    font-family: futura, sans-serif;
     font-weight: bold;
 }
-
+h1{
+color:black;
+font-family: futura, sans-serif;
+font-size: 15px;
+}
 h2{
-    font-size: 1.2em;
+    color:white;
+    font-family: futura, sans-serif;
+    font-size: 15px;
 }
 
 p{
-
+    color:black;
+    font-family: futura, sans-serif;
+    font-size: 13px;
 }
 
 #wrapper{
@@ -64,7 +73,8 @@ p{
 
 footer{
     text-align: center;
-    background-color: #b1cbbb;
+    background-color: #fee66b
+;
     padding:20px 0;
 }
 footer a{
